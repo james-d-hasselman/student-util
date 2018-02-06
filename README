@@ -1,0 +1,35 @@
+- Must be compiled using Java 1.8 or higher
+
+
+Assumptions:
+
+- Students are promoted to the next grade level on the first day after the 
+  last day of school (July 1st).
+
+- Kindergarten is only one year and not two.
+
+- Pre-school is any number of years prior to Kindergarten (1 and 100 years 
+  are the same).
+
+Build instructions:
+
+- Windows:
+    ./gradlew.bat build
+
+- Linux / OSX:
+    ./gradlew build
+
+Test instructions:
+
+- Windows:
+    ./gradlew.bat test
+
+- Linux / OSX:
+    ./gradlew test
+
+Adding your own tests:
+
+- Place your class files containing test methods annotated with the @Test 
+  annotation under the path src/test/java. Run them using the same test 
+  command.
+
